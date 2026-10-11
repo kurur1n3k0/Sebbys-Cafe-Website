@@ -1,0 +1,26 @@
+.menu-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+
+button.menu-tab {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button.menu-tab.primary-btn {
+  border: 1px solid var(--blue-dark);
+}
+
+.menu-count {
+  margin-bottom: 22px;
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.product-card[hidden] {
+  display: none;
+}

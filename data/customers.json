@@ -1,0 +1,50 @@
+[
+  {
+    "id": "CUST-001",
+    "name": "Demo Customer 01",
+    "email": "customer001@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-002",
+    "name": "Demo Customer 02",
+    "email": "customer002@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-003",
+    "name": "Demo Customer 03",
+    "email": "customer003@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-004",
+    "name": "Demo Customer 04",
+    "email": "customer004@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-005",
+    "name": "Demo Customer 05",
+    "email": "customer005@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-006",
+    "name": "Demo Customer 06",
+    "email": "customer006@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-007",
+    "name": "Demo Customer 07",
+    "email": "customer007@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  },
+  {
+    "id": "CUST-008",
+    "name": "Demo Customer 08",
+    "email": "customer008@example.test",
+    "notes": "Fictional sample record for coursework demonstration."
+  }
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Explore drinks, pastries, and café favorites from Sebby's Cafe."><title>Menu | Sebby's Cafe</title><link rel="stylesheet" href="css/style.css?v=20261011-fix1"><link rel="stylesheet" href="css/menu.css?v=20261011-fix1"><link rel="stylesheet" href="css/cart.css?v=20261011-fix1"></head><body>
+<header class="navbar"><div class="nav-container">
+      <a href="index.html" class="logo"><img src="assets/sebbys-logo.jpg" alt="Sebby's Cafe Logo"></a>
+      <div class="logo-text"><strong>Sebby's</strong><span>C A F E</span></div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav id="navMenu" aria-label="Main navigation"><a href="index.html" class="">Home</a><a href="index.html#about" class="">About</a><a href="menu.html" class="active">Menu</a><a href="index.html#promotion" class="">Promotion</a><a href="contact.html" class="">Contact</a></nav><a href="cart.html" class="cart-btn" id="cartBtn" aria-label="Open cart, 0 items"><span aria-hidden="true">🛒</span><span class="cart-count" id="cartCount" aria-hidden="true" hidden>0</span></a>
+    </div></header>
+<main><section class="featured section"><div class="section-heading"><div><p class="section-label">OUR MENU</p><h2>Drinks and treats, <span>made with care.</span></h2><p class="page-intro">Choose a favorite and add it to your order. Menu and availability are loaded from Sebby's Cafe's backend.</p></div><a href="cart.html" class="view-menu-link">View your cart →</a></div>
+<div class="menu-tabs" role="group" aria-label="Filter the menu"><button type="button" class="btn primary-btn menu-tab" data-filter="all" aria-pressed="true">All</button><button type="button" class="btn secondary-btn menu-tab" data-filter="coffee" aria-pressed="false">Coffee</button><button type="button" class="btn secondary-btn menu-tab" data-filter="noncoffee" aria-pressed="false">Non-Coffee</button><button type="button" class="btn secondary-btn menu-tab" data-filter="pastry" aria-pressed="false">Pastry</button><button type="button" class="btn secondary-btn menu-tab" data-filter="food" aria-pressed="false">Food</button><button type="button" class="btn secondary-btn menu-tab" data-filter="christmas" aria-pressed="false">Seasonal</button></div>
+<p class="menu-count" id="menuCount" aria-live="polite">Loading menu…</p><div class="product-grid" id="menuGrid" aria-live="polite"></div><p class="form-status" id="menuStatus" role="status" aria-live="polite"></p>
+<div class="featured-note"><span>✨</span><p>Prices are shown in Philippine pesos. Please ask our baristas about daily availability.</p></div></section>
+<section class="contact-preview section"><div class="contact-box"><div class="contact-text"><p class="section-label">QUESTIONS ABOUT THE MENU?</p><h2>We'd love to<br>hear from you.</h2><p>Send our team a message about menu items, dietary questions, or your next visit.</p><a href="contact.html" class="btn primary-btn">Contact Sebby's Cafe</a></div><div class="contact-details"><div class="contact-item"><span>📍</span><div><strong>Visit Us</strong><p>San Nicolas, Minalin Pampanga</p></div></div><div class="contact-item"><span>🕐</span><div><strong>Opening Hours</strong><p>10:00 AM - 10:00 PM</p></div></div><div class="contact-item"><span>✉</span><div><strong>Email Us</strong><p>sebbyscafe@gmail.com</p></div></div></div></div></section></main>
+<footer>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="logo"><img src="assets/sebbys-logo.jpg" alt="Sebby's Cafe Logo"></a>
+          <div class="logo-text"><strong>Sebby's</strong><span>C A F E</span></div>
+          <p>Life happens, coffee helps.</p>
+          <div class="socials"><a href="https://www.facebook.com/profile.php?id=61558022451061" aria-label="Facebook">f</a><a href="https://www.instagram.com/sebbyscafe/" aria-label="Instagram">◎</a></div>
+        </div>
+        <div class="footer-links"><h3>Quick Links</h3><a href="index.html">Home</a><a href="index.html#about">About</a><a href="menu.html">Menu</a><a href="index.html#promotion">Promotion</a><a href="contact.html">Contact</a></div>
+        <div class="newsletter"><h3>Stay in the loop ☕</h3><p>Get updates about new drinks, promotions, and special offers.</p>
+          <form id="newsletterForm"><label class="sr-only" for="newsletterEmail">Email address</label><input id="newsletterEmail" name="email" type="email" autocomplete="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe to newsletter">→</button></form>
+          <p class="newsletter-status" data-newsletter-status role="status" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 Sebby's Cafe. All rights reserved.</p><p>Made by Sebby's Cafe team.</p></div>
+    </footer>
+<div class="flavor-modal" id="flavorModal" role="dialog" aria-modal="true" aria-labelledby="flavorTitle" aria-hidden="true"><form class="flavor-box" id="flavorForm"><img class="flavor-photo" id="flavorPhoto" src="" alt="" hidden><h3 id="flavorTitle">Choose a flavor</h3><p class="flavor-sub">Choose your flavor</p><div class="flavor-options" id="flavorOptions"></div><div class="flavor-actions"><button type="button" class="cart-clear" id="flavorCancel">Cancel</button><button type="submit" class="btn primary-btn flavor-add" id="flavorAdd">Add to cart</button></div></form></div><div class="cart-toast" id="cartToast" role="status" aria-live="polite"></div>
+<script src="js/main.js?v=20261011-fix1"></script><script src="js/cart-store.js?v=20261011-fix1"></script><script src="js/menu.js?v=20261011-fix1"></script><script src="js/cart.js?v=20261011-fix1"></script></body></html>

@@ -1,0 +1,301 @@
+[
+  {
+    "id": "spanish-latte",
+    "name": "Spanish Latte",
+    "category": "Coffee",
+    "categoryKey": "coffee",
+    "description": "A smooth and comforting espresso drink for your everyday coffee moments.",
+    "price": 155,
+    "image": "/assets/sebbys-coffee.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "caramel-frappuccino",
+    "name": "Caramel Frappuccino",
+    "category": "Coffee",
+    "categoryKey": "coffee",
+    "description": "A creamy blended coffee with a sweet caramel finish.",
+    "price": 175,
+    "image": "/assets/sebbys-caramelfrappuccino.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "caramel-macchiato",
+    "name": "Caramel Macchiato",
+    "category": "Coffee",
+    "categoryKey": "coffee",
+    "description": "Espresso layered with creamy milk and caramel.",
+    "price": 160,
+    "image": "/assets/sebbys-caramelmacchiato.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "coffee-jelly",
+    "name": "Brown Sugar Coffee Jelly",
+    "category": "Coffee",
+    "categoryKey": "coffee",
+    "description": "Brown sugar coffee with a satisfying coffee jelly texture.",
+    "price": 165,
+    "image": "/assets/sebbys-coffeejelly.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "strawberries-cream",
+    "name": "Strawberries & Cream",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "A sweet, creamy strawberry-inspired treat.",
+    "price": 165,
+    "image": "/assets/sebbys-strawberriesandcream.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "matcha-creme",
+    "name": "Matcha Creme",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "A smooth, creamy matcha drink with a gentle earthy finish.",
+    "price": 165,
+    "image": "/assets/sebbys-matchacreme.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "biscoff-crumble",
+    "name": "Biscoff Crumble",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "A creamy drink inspired by caramelized Biscoff biscuits.",
+    "price": 165,
+    "image": "/assets/sebbys-biscoffcrumble.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "galaxy-lemon-berry",
+    "name": "Galaxy Lemon Berry",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "A bright citrus and berry drink with a colorful finish.",
+    "price": 150,
+    "image": "/assets/sebbys-galaxylemonberry.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "strawberry-series",
+    "name": "Strawberry Series",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "Choose your favorite strawberry-inspired drink.",
+    "price": 145,
+    "image": "/assets/sebbys-strawberryseries.jpg",
+    "available": true,
+    "variants": [
+      {
+        "id": "strawberry-seasalt",
+        "name": "Strawberry Seasalt",
+        "price": 150
+      },
+      {
+        "id": "strawberry-matcha",
+        "name": "Strawberry Matcha",
+        "price": 165
+      },
+      {
+        "id": "strawberry-milk",
+        "name": "Strawberry Milk",
+        "price": 145
+      },
+      {
+        "id": "choco-berry",
+        "name": "Choco Berry",
+        "price": 155
+      }
+    ]
+  },
+  {
+    "id": "matcha-series",
+    "name": "Matcha Series",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "Explore Sebby’s refreshing matcha drink variations.",
+    "price": 140,
+    "image": "/assets/sebbys-matchaseries.jpg",
+    "available": true,
+    "variants": [
+      {
+        "id": "matcha-seasalt",
+        "name": "Matcha Seasalt",
+        "price": 140
+      },
+      {
+        "id": "matcha-latte",
+        "name": "Matcha Latte",
+        "price": 150
+      },
+      {
+        "id": "iced-matcha-latte",
+        "name": "Iced Matcha Latte",
+        "price": 150
+      },
+      {
+        "id": "matcha-oreo",
+        "name": "Matcha Oreo",
+        "price": 155
+      },
+      {
+        "id": "matcha-fusion",
+        "name": "Matcha Fusion",
+        "price": 170
+      }
+    ]
+  },
+  {
+    "id": "ube-series",
+    "name": "Ube Series",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "A Filipino favorite with a creamy, sweet ube flavor.",
+    "price": 145,
+    "image": "/assets/sebbys-ubeseries.jpg",
+    "available": true,
+    "variants": [
+      {
+        "id": "iced-ube-milk",
+        "name": "Iced Ube Milk",
+        "price": 145
+      },
+      {
+        "id": "iced-ube-seasalt",
+        "name": "Iced Ube Seasalt",
+        "price": 155
+      },
+      {
+        "id": "ube-cheese-frappe",
+        "name": "Ube Cheese Frappe",
+        "price": 175
+      }
+    ]
+  },
+  {
+    "id": "pistachio-series",
+    "name": "Pistachio Series",
+    "category": "Non-Coffee",
+    "categoryKey": "noncoffee",
+    "description": "Nutty pistachio flavors paired with creamy café favorites.",
+    "price": 170,
+    "image": "/assets/sebbys-pistachioseries.jpg",
+    "available": true,
+    "variants": [
+      {
+        "id": "iced-chocolate-pistachio",
+        "name": "Iced Chocolate Pistachio",
+        "price": 170
+      },
+      {
+        "id": "iced-matcha-pistachio",
+        "name": "Iced Matcha Pistachio",
+        "price": 170
+      },
+      {
+        "id": "white-chocolate-pistachio-latte",
+        "name": "White Chocolate Pistachio Latte",
+        "price": 185
+      }
+    ]
+  },
+  {
+    "id": "ensaymada",
+    "name": "Ensaymada",
+    "category": "Pastry",
+    "categoryKey": "pastry",
+    "description": "A soft, buttery pastry that pairs beautifully with coffee.",
+    "price": 150,
+    "image": "/assets/sebbys-food.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "blueberry-cheesecake",
+    "name": "Blueberry Cheesecake",
+    "category": "Pastry",
+    "categoryKey": "pastry",
+    "description": "Creamy cheesecake topped with blueberry flavor.",
+    "price": 120,
+    "image": "/assets/sebbys-blueberrycheesecake.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "biscoff-cookie",
+    "name": "Biscoff Cookie",
+    "category": "Pastry",
+    "categoryKey": "pastry",
+    "description": "A sweet cookie with a Biscoff-inspired flavor.",
+    "price": 95,
+    "image": "/assets/sebbys-biscoffcookie.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "dubai-chewy-cookie",
+    "name": "Dubai Chewy Cookie",
+    "category": "Pastry",
+    "categoryKey": "pastry",
+    "description": "A chewy cookie treat for a little indulgence.",
+    "price": 65,
+    "image": "/assets/sebbys-dubaichewycookie.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "club-sandwich",
+    "name": "Club Sandwich",
+    "category": "Food",
+    "categoryKey": "food",
+    "description": "A satisfying café-style sandwich for a savory bite.",
+    "price": 200,
+    "image": "/assets/sebbys-food.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "creamy-carbonara",
+    "name": "Creamy Carbonara",
+    "category": "Food",
+    "categoryKey": "food",
+    "description": "A rich and creamy pasta favorite.",
+    "price": 155,
+    "image": "/assets/sebbys-carbonara.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "holiday-latte",
+    "name": "Holiday Latte",
+    "category": "Christmas",
+    "categoryKey": "christmas",
+    "description": "A festive seasonal latte made for cozy moments.",
+    "price": 165,
+    "image": "/assets/sebbys-christmasdrinks.jpg",
+    "available": true,
+    "variants": []
+  },
+  {
+    "id": "peppermint-dark-mocha-frappe",
+    "name": "Peppermint Dark Mocha Frappe",
+    "category": "Christmas",
+    "categoryKey": "christmas",
+    "description": "A cool blended mocha with dark chocolate and peppermint notes.",
+    "price": 170,
+    "image": "/assets/sebbys-peppermintdarkmochafrappe.jpg",
+    "available": true,
+    "variants": []
+  }
+]

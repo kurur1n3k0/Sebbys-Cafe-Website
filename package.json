@@ -1,0 +1,14 @@
+{
+  "name": "sebbys-cafe-website",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Sebby's Cafe website with a persistent JSON-backed Node.js API, admin dashboard, and barista order workflow.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/js/main.js && node --check public/js/home.js && node --check public/js/cart-store.js && node --check public/js/menu.js && node --check public/js/cart.js && node --check public/js/cart-page.js && node --check public/js/contact.js && node --check public/js/staff-login.js && node --check public/js/staff-dialogs.js && node --check public/js/admin.js && node --check public/js/barista.js"
+  }
+}

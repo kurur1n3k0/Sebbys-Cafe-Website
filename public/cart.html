@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | Sebby's Cafe</title>
+    <link rel="stylesheet" href="css/style.css?v=20261011-fix1">
+    <link rel="stylesheet" href="css/cart.css?v=20261011-fix1">
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/sebbys-logo.jpg" alt="Sebby's Cafe Logo">
+        </a>
+
+        <div class="logo-text">
+          <strong>Sebby's</strong>
+          <span>C A F E</span>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+
+        <nav id="navMenu">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="index.html#promotion">Promotion</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="cart.html" class="cart-btn" id="cartBtn" aria-current="page" aria-label="Open cart, 0 items">
+          <span aria-hidden="true">🛒</span>
+          <span class="cart-count" id="cartCount" aria-hidden="true" hidden>0</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="featured section cart-page">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">YOUR ORDER</p>
+            <h2>Your <span>cart</span></h2>
+          </div>
+
+          <a href="menu.html" class="view-menu-link">← Keep ordering</a>
+        </div>
+
+        <div class="cart-layout" id="cartLayout">
+          <div class="cart-list">
+            <div class="cart-empty" id="cartEmpty">
+              <p>Your cart is empty. Add a drink or treat from the menu.</p>
+              <a href="menu.html" class="btn primary-btn">Browse the menu</a>
+            </div>
+
+            <ul class="cart-items" id="cartItems"></ul>
+          </div>
+
+          <form class="cart-summary-box" id="checkoutForm">
+            <h3>Order summary</h3>
+
+            <div class="summary-row">
+              <span>Items</span>
+              <strong id="summaryCount">0</strong>
+            </div>
+
+            <div class="cart-total">
+              <span>Total</span>
+              <strong id="cartTotal">₱0</strong>
+            </div>
+
+            <label class="cart-field" for="orderName">Name for the order</label>
+            <input type="text" id="orderName" name="orderName" placeholder="Your name" autocomplete="name" required>
+
+            <p class="form-status" id="checkoutStatus" role="status" aria-live="polite"></p>
+            <button type="submit" class="btn primary-btn cart-checkout" id="checkoutBtn">Place order</button>
+            <button type="button" class="cart-clear" id="clearCart">Clear cart</button>
+          </form>
+        </div>
+
+        <div class="cart-done" id="cartDone" hidden>
+          <div class="cart-done-icon" aria-hidden="true">✓</div>
+          <h3>Thank you, <span id="doneName"></span>!</h3>
+          <p>Your order <strong id="doneNumber"></strong> is saved. Show this number to our barista at the counter. Payment is handled in person.</p>
+          <ul class="cart-summary" id="doneItems"></ul>
+          <p class="cart-done-total">Total: <strong id="doneTotal"></strong></p><p class="form-status" id="orderStatus" role="status" aria-live="polite"></p>
+          <a href="menu.html" class="btn primary-btn">Back to menu</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/sebbys-logo.jpg" alt="Sebby's Cafe Logo">
+          </a>
+
+          <div class="logo-text">
+            <strong>Sebby's</strong>
+            <span>C A F E</span>
+          </div>
+
+          <p>Life happens, coffee helps.</p>
+
+          <div class="socials">
+            <a href="https://www.facebook.com/profile.php?id=61558022451061" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/sebbyscafe/" aria-label="Instagram">◎</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="menu.html">Menu</a>
+          <a href="index.html#promotion">Promotion</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="newsletter">
+          <h3>Stay in the loop ☕</h3>
+          <p>Get updates about new drinks, promotions, and special offers.</p>
+
+          <form id="newsletterForm">
+            <input type="email" name="email" autocomplete="email" placeholder="Your email address" required>
+            <button type="submit">→</button>
+          </form>
+          <p class="newsletter-status" data-newsletter-status role="status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Sebby's Cafe. All rights reserved.</p>
+        <p>Made by sebby's cafe team.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js?v=20261011-fix1"></script>
+    <script src="js/cart-store.js?v=20261011-fix1"></script>
+    <script src="js/cart-page.js?v=20261011-fix1"></script>
+  </body>
+</html>
