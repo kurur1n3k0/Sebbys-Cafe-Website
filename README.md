@@ -1,6 +1,6 @@
 # Sebby's Cafe — full website + backend
 
-This project reorganizes the supplied static café website and implements the backend requested in **Instructions to do.docx**. It uses plain HTML/CSS/JavaScript on the frontend and built-in Node.js modules on the backend, so no npm dependencies are required.
+This project reorganizes the supplied static café website and implements the backend function. It uses plain HTML/CSS/JavaScript on the frontend and built-in Node.js modules on the backend, so no npm dependencies are required.
 
 ## Latest improvements
 
