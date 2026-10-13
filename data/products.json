@@ -255,17 +255,6 @@
     "variants": []
   },
   {
-    "id": "club-sandwich",
-    "name": "Club Sandwich",
-    "category": "Food",
-    "categoryKey": "food",
-    "description": "A satisfying café-style sandwich for a savory bite.",
-    "price": 200,
-    "image": "/assets/sebbys-food.jpg",
-    "available": true,
-    "variants": []
-  },
-  {
     "id": "creamy-carbonara",
     "name": "Creamy Carbonara",
     "category": "Food",
@@ -278,14 +267,27 @@
   },
   {
     "id": "holiday-latte",
-    "name": "Holiday Latte",
+    "name": "Holiday Latte Series",
     "category": "Christmas",
     "categoryKey": "christmas",
     "description": "A festive seasonal latte made for cozy moments.",
     "price": 165,
     "image": "/assets/sebbys-christmasdrinks.jpg",
     "available": true,
-    "variants": []
+    "variants": [
+      {
+        "id": "peppermint-frape",
+        "name": "Peppermint Mocha Frappe",
+        "price": 165
+      },
+      {
+        "id": "peppermint-iced",
+        "name": "Iced Peppermint Mocha",
+        "price": 165
+      }
+    ],
+    "createdAt": "2026-10-13T14:50:53.327Z",
+    "updatedAt": "2026-10-13T14:50:53.327Z"
   },
   {
     "id": "peppermint-dark-mocha-frappe",
@@ -297,5 +299,75 @@
     "image": "/assets/sebbys-peppermintdarkmochafrappe.jpg",
     "available": true,
     "variants": []
+  },
+  {
+    "id": "beef-quesadilla",
+    "name": "Beef Quesadilla",
+    "category": "Food",
+    "categoryKey": "food",
+    "description": "A savory, meat-filled classic grilled to a crisp, accompanied by a creamy side sauce and fresh garnishes.",
+    "price": 155,
+    "image": "/assets/sebbys-beefquesadilla.jpg",
+    "available": true,
+    "variants": [],
+    "createdAt": "2026-10-13T14:52:17.539Z",
+    "updatedAt": "2026-10-13T14:52:17.539Z"
+  },
+  {
+    "id": "chicken-nuggets",
+    "name": "Chicken Nuggets",
+    "category": "Food",
+    "categoryKey": "food",
+    "description": "Tender, golden nuggets fried to a crisp perfection and paired beautifully with a savory dark dip.",
+    "price": 150,
+    "image": "/assets/uploads/sebbys-chicken-nuggets.png",
+    "available": true,
+    "variants": [],
+    "createdAt": "2026-10-13T14:52:57.234Z",
+    "updatedAt": "2026-10-13T14:52:57.234Z"
+  },
+  {
+    "id": "croffle-series",
+    "name": "Croffle Series",
+    "category": "Pastry",
+    "categoryKey": "pastry",
+    "description": "Crispy, buttery croffles with golden, flaky layers—perfectly paired with your favorite drink!",
+    "price": 100,
+    "image": "/assets/uploads/sebbys-croffle-series.png",
+    "available": true,
+    "variants": [
+      {
+        "id": "croffle",
+        "name": "Plain Croffle",
+        "price": 100
+      },
+      {
+        "id": "classic-nutella",
+        "name": "Classic Nutella",
+        "price": 130
+      },
+      {
+        "id": "classic-biscoff",
+        "name": "Classic Biscoff",
+        "price": 135
+      },
+      {
+        "id": "nutella-alcapone",
+        "name": "Nutella Alcapone",
+        "price": 150
+      },
+      {
+        "id": "cookies-and-cream",
+        "name": "Cookies & Cream",
+        "price": 160
+      },
+      {
+        "id": "creamy-spinach",
+        "name": "Creamy Spinach",
+        "price": 160
+      }
+    ],
+    "createdAt": "2026-10-13T14:55:25.627Z",
+    "updatedAt": "2026-10-13T14:55:25.627Z"
   }
 ]
